@@ -1,7 +1,8 @@
 var express = require('express'),
     neighborhood = require('./routes/neighborhoods'),
     path = require('path'),
-    http = require('http');
+    http = require('http'),
+    io = require('socket.io');
 
 var app = express();
 
