@@ -1,0 +1,9 @@
+{
+    "name": "relo-io",
+    "description": "Alpha build of Relo.io",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "3.x"
+    }
+}
