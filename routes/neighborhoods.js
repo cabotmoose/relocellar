@@ -96,7 +96,7 @@ var populateDB = function() {
     state: "Texas",
     country: "USA",
     description: "Whether you're looking to shop, dine, dance, or jam, Downtown Austin hits all the right notes.",
-    picture: "../img/downtown_austin"
+    picture: "../public/pics/downtown_austin"
 },
 {
     name: "North Loop",
@@ -104,7 +104,7 @@ var populateDB = function() {
     state: "Texas",
     country: "USA",
     description: "Experience the hip epicenter of North Austin.",
-    picture: "../img/north_loop"
+    picture: "../public/pics/north_loop"
 }];
 
     db.collection('neighborhoods', function(err, collection) {
