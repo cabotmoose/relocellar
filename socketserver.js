@@ -14,7 +14,7 @@ app.configure(function () {
     });
 
 var server = http.createServer(app);
-io = io.listen(server);
+var io = io.listen(server);
 
 
 io.configure(function () {
